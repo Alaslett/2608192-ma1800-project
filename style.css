@@ -16,13 +16,13 @@ background-size:cover;
 header{ 
 position:absolute;
 text-align:center;
-font-size: 80px;
+font-size: 120px;
 font-style: italic; 
 font-weight: 5px;
 text-decoration: underline;
 color: white;
-top:350px;
-right:470px
+top:300px;
+right:350px
 } 
 /*Container for webpage layout*/
 .container{
