@@ -46,7 +46,7 @@ text-align:center;
 color:rgb(248, 209, 78);
 font-size:40px;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
-margin-top:1%
+margin-top:0;
 }
 
 h3{
@@ -116,7 +116,7 @@ background-color:rgba(194, 192, 192, 0.292);
 border:double;
 border-width: 7px;
 width: 60%;
-height: 90%;
+height: 96%;
 }
 
 p{
