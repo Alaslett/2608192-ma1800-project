@@ -1,0 +1,138 @@
+body{
+background-image:url("../images/heart.jpg") ;
+padding: 1px;
+background-size:cover;
+}
+
+
+h1{
+display:flex;
+text-align:center;
+justify-content:center;
+font-size: 45px;
+font-style: italic; 
+font-weight: 5px;
+text-decoration: underline;
+color: white;
+}
+
+.sparkles{
+position:absolute;
+width:200px;
+margin-left:0%;
+margin-top:-4%;
+}
+
+h2{
+display:flex;
+margin-left:40px;
+text-align:center;
+font-size: 30px;
+font-style: italic; 
+font-weight: 5px;
+text-decoration: underline;
+color: white;
+
+}
+
+.container{display:inline-block;}
+
+.text{
+position:relative;
+display:inline-block;
+margin-left:50px;
+text-align: center;
+width:100%;
+font-size:20px;
+color: white;
+letter-spacing:5px;
+width:100%;
+font-family:monospace;
+border-right: 5px solid;
+white-space: nowrap;
+overflow:hidden;
+animation:
+typing 10s steps(250),
+cursor .10s step-end infinite alternate;
+background:rgba(8, 8, 8, 0.395);
+
+}
+
+@keyframes cursor{
+    50% {border-color:solid}
+}
+
+@keyframes typing{
+    from{ width:0}
+}
+
+.hide {
+ color:transparent;  
+}
+
+.hide:hover{
+color:#f00;
+cursor:pointer;
+}
+
+.funtext{
+margin:0px;
+padding:0px;
+font-family:verdana;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100px;
+background:transparent;
+}
+
+ul{
+margin:0px;
+padding:0px;
+display:flex;
+flex-direction: row-reverse;
+}
+
+ul li{
+list-style:none;
+color:rgb(255, 255, 255);
+font-style:bold;
+font-size:20px;
+font-weight:bold;
+letter-spacing:20px;
+filter:none(1px);
+transition:4s;
+}
+
+ul li:hover, ul li:hover ~ li{
+transform:rotate(180deg) translateY(-200px);
+transition:2s;
+filter:blur(20px);
+opacity:0;
+cursor:pointer;
+}
+
+.jerry{
+margin-left:10px;
+}
+
+#container{
+width:300px;
+height:300px;
+}
+
+@keyframes move{
+0%{top:20%; left:20%;}
+25%{top:20%; left:20%;}
+50%{top:2%; left:50%;}
+100%{top:40%; left:75%;}
+}
+
+.overlay-image{
+position:absolute;
+top:100px;
+left:40%;
+
+animation:move 5s ease infinite alternate-reverse;
+}
+

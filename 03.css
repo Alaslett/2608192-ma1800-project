@@ -1,0 +1,143 @@
+body{
+   background-image:url("../images/heart.jpg") ;
+}
+.sparkles{
+position:absolute;
+width:200px;
+margin-left:-10%;
+margin-top:-4%;
+}
+
+
+.button{
+color:rgb(0, 255, 110);
+font-size:50px;
+margin-left:50px;
+margin-bottom:50px;
+
+}
+
+h1{
+display:flex;
+text-align:center;
+justify-content:center;
+font-size: 45px;
+font-style: italic; 
+font-weight: 5px;
+text-decoration: underline;
+color: white;
+}
+
+h2{
+left:30%;
+top:5%;
+position:fixed;
+text-align:center;
+justify-content:center;
+color:rgb(160, 255, 105);
+background:rgba(128, 128, 128, 0.256);
+font-size:30px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
+
+
+p{
+text-align:center;
+color:rgb(248, 209, 78);
+font-size:40px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+margin-top:1%
+}
+
+h3{
+position:absolute;
+text-align:center;
+width:250px;
+color:rgb(255, 3, 209);
+font-size:20px;
+font-family:monospace;
+margin-top:22%;
+}
+
+
+.wrapper{
+display:flex;
+width:100%;
+height:50%;
+
+}
+
+/*wrapper for first two boxes*/
+.wrapper2{
+width:100%;
+height:50%;
+border: double;
+background-color:rgba(255, 0, 0, 0);
+}
+/* troll face container */
+.container{
+display:flex;
+margin-left:3%;
+justify-content:center;
+background-color:rgb(194, 192, 192);
+border:double;
+border-width: 7px;
+width: 20%;
+height: 60%;
+}
+
+ .troll{
+width: 75%;
+height:80%;
+margin-top:10%;
+ }
+
+/* container for gif*/
+.container2{
+margin-left:3%;
+background-color:rgb(194, 192, 192);
+border:double;
+border-width: 5px;
+width: 40%;
+height: 90%;
+}
+
+.pedro{
+width:100%;
+}
+
+
+/*Container for paragraph*/
+.container3{
+justify-content:center;
+margin-left:45%;
+margin-top:-23%;
+background-color:rgba(194, 192, 192, 0.292);
+border:double;
+border-width: 7px;
+width: 60%;
+height: 90%;
+}
+
+p{
+font-size:30px;
+color:rgb(18, 247, 11);
+margin-top:0%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Annoying trollface*/
+.overlay-image{
+position:absolute;
+top:100px;
+left:50%;
+
+animation:move 5s ease infinite alternate-reverse;
+}
+
+@keyframes move{
+0%{top:20%; left:50%;}
+25%{top:20%; left:20%;}
+50%{top:2%; left:50%;}
+100%{top:40%; left:75%;}
+}
